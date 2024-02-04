@@ -52,4 +52,4 @@ export const { addTodo, removeTodo } = todoSlice.actions;
 export default todoSlice.reducer;
 ```
 
-3. `components` folder create and in that we mehfooz khan
+3. `components` folder create and in that we
