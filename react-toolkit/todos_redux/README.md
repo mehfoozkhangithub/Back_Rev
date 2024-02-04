@@ -14,11 +14,11 @@ export const store = configureStore({
 });
 ```
 
-2. `features` folder create and in that w build **Reducer** as **TodoSlice.js** page in that the code below:-
+2. `features` folder create and in that we build **Reducer** as **TodoSlice.js** page in that the code below:-
 
-    - first we import *createSlice* As createSlice creates your actions as well as your **reducer** for you, you don't have to worry about type safety here. *Action* types can just be provided inline:
-    
-    - If you have too many case reducers and defining them inline would be messy, or you want to reuse case reducers across slices, you can also define them outside the createSlice call and type them as CaseReducer:
+   - first we import _createSlice_ As createSlice creates your actions as well as your **reducer** for you, you don't have to worry about type safety here. _Action_ types can just be provided inline:
+
+   - If you have too many case reducers and defining them inline would be messy, or you want to reuse case reducers across slices, you can also define them outside the createSlice call and type them as CaseReducer:
 
 ```js
 import { createSlice, nanoid } from "@reduxjs/toolkit";
@@ -51,3 +51,5 @@ export const { addTodo, removeTodo } = todoSlice.actions;
 
 export default todoSlice.reducer;
 ```
+
+3. `components` folder create and in that we mehfooz khan
