@@ -5,6 +5,7 @@ import Todos from "./Components/Todos";
 function App() {
   return (
     <>
+    <h1 className="capitalize">learn about redux toolkit</h1>
       <AddTodos />
       <Todos />
     </>

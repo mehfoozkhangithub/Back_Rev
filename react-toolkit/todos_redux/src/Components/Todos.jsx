@@ -8,10 +8,10 @@ function Todos() {
   return (
     <>
       <div>Todo</div>
-      <ul className="list-none">
+      <ul className="list-none  flex justify-between">
         {todos.map((items) => (
           <li
-            className="mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded"
+            className="border-2 border-dashed border-red-700 mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded"
             key={items.id}
           >
             <div className="text-white">{items.text}</div>

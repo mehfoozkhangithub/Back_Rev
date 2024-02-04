@@ -6,8 +6,8 @@ function AddTodos() {
   const [input, setInput] = React.useState("");
   const dispatch = useDispatch();
 
-  const addTodoHandler = () => {
-    e.preventDefault();
+  const addTodoHandler = (e) => {
+    e.preventDefault()
     dispatch(addTodo(input));
     setInput("");
   };
