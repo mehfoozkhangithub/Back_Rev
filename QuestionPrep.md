@@ -30,6 +30,8 @@
 /*  what is css */
 
 /* what is float and dose it affect to UI */
+
+/* what is margin collapse */
 ```
 
 ```js
@@ -70,8 +72,8 @@ if (true) {
 }
 ```
 
-```react.js
+```js
+// -  what  is strick mode
 
-
-
+// is react declarative or imperative
 ```
