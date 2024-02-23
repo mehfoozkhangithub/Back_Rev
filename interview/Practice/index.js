@@ -1,4 +1,6 @@
 function main() {
+  // let localStorage=
+
   // here all data append here
   let appendData = document.querySelector("#sections");
 
@@ -25,6 +27,9 @@ function main() {
 
   async function fetchData(api, originalName) {
     try {
+      // * this is for normal search
+      // const response = await axios.get(api + originalName);
+
       const response = await axios.get(apiSearch, {
         params: {
           q: originalName,
