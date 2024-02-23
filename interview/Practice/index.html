@@ -1,9 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link href="./dist/output.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <main
+      class="border border-solid border-red-600 flex justify-center items-center gap-4 p-3 mt-32"
+    >
+      <input
+        id="input"
+        type="text"
+        value
+        placeholder="enter the name"
+        class="capitalize py-2 px-4 border-2 border-solid border-blue-600 rounded-xl"
+        autocomplete="off"
+      />
+      <button
+        onclick="main()"
+        class="capitalize font-normal py-2 px-3 border border-dashed border-green-600 rounded-lg hover:bg-red-700 hover:border-transparent duration-300 ease-in-out transition-colors cursor-pointer !text-white"
+      >
+        search
+      </button>
+    </main>
+    <section
+      id="sections"
+      class="output border border-solid border-yellow-600 !text-white"
+    >
+      <article class="">hello</article>
+      <article class="">world</article>
+      <article class="">buddy</article>
+    </section>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
 </html>
