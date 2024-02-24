@@ -1,65 +1,67 @@
 ```html
-<!-- what is doc Type -->
+<!-- what is doc Type  -->
 
-<!-- what is html and versions -->
+<!-- what is html and versions  -->
 
-<!-- what is selectors -->
+<!-- what is selectors what table -->
 
-<!-- what table architecture in html -->
+<!--  architecture in html  -->
 
-<!--  what is inline elements and block elements -->
+<!-- what is inline elements and block elements -->
 
-<!-- what are void elements are in html -->
+<!-- what are void -->
+
+<!-- elements are in html -->
 ```
 
 ```css
-/* what are the css position  and its types */
+what are the css position  and its types
 
-/* what is inherit in css */
+what is inherit in css
 
-/* what is flex */
+what is flex
 
-/* what is grid */
+what is grid
 
-/* what is box modal */
+what is box modal
 
-/* what is pSudo-elements and pSudo-classes and pSudo-selectors  */
+what is pSudo-elements and pSudo-classes and pSudo-selectors
 
-/* explain the specificity of selectors (levels) */
+explain the specificity of selectors (levels)
 
-/*  what is css */
+what is css
 
-/* what is float and dose it affect to UI */
+what is float and dose it affect to UI
 
-/* what is margin collapse */
+what is margin collapse
 ```
 
 ```js
-//  what is js
+what is js
 
-// what is debouncing ?
+what is debouncing ?
 
-// what throttling ?
+what throttling ?
 
-// what is Closures ?
+what is Closures ?
 
-// what is diff scoping in js ?
+what is diff scoping in js ?
 
-// what are promise ?
+what are promise ?
 
-// what is default behaver of js ?
+what is default behaver of js ?
 
-// what let var const  deff ?
+what let var const  different ?
 
-// what async await ?
+what async await ?
 
-//  what is hoisting ?
+ what is hoisting ?
 
 // global
 let name = "rahul";
 
 function main() {
-  // function scope
+// function scope
   let name = "mehfooz";
 }
 
@@ -73,7 +75,7 @@ if (true) {
 ```
 
 ```js
-// -  what  is strick mode
+what  is strick mode
 
-// is react declarative or imperative
+is react declarative or imperative
 ```

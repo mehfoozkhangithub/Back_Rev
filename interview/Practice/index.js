@@ -25,7 +25,7 @@ function main() {
   //   .then((data) => console.warn(data))
   //   .catch((err) => console.log("error", err));
 
-  async function fetchData(api, originalName) {
+  async function fetchData(apiSearch, originalName) {
     try {
       // * this is for normal search
       // const response = await axios.get(api + originalName);
@@ -43,5 +43,5 @@ function main() {
     }
   }
 
-  fetchData(api, originalName);
+  fetchData(apiSearch, originalName);
 }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <title>Todo</title>
+    <style>
+      span {
+        color: azure;
+        font-size: 20px;
+      }
+      li {
+        width: 70%;
+        margin: auto;
+        padding: 10px;
+        list-style: none;
+        display: flex;
+        /* border: 1px solid red; */
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .edit-btn,
+      .delete-btn {
+        color: #fff;
+        padding: 8px 16px;
+      }
+
+      .edit-btn {
+        background-color: green;
+      }
+
+      .delete-btn {
+        background-color: red;
+      }
+
+      .edit-btn:hover {
+        background-color: transparent;
+        border: 1px solid green;
+        transition: ease-in-out 0.6s;
+      }
+      .delete-btn:hover {
+        background-color: transparent;
+        border: 1px solid red;
+        transition: ease-in-out 0.6s;
+      }
+
+      .btn-div {
+        display: flex;
+        gap: 13px;
+      }
+    </style>
+  </head>
+  <body class="!bg-[#28282b]">
+    <section class="section flex gap-4 justify-center items-center">
+      <input
+        id="input-value"
+        type="text"
+        placeholder="enter the task"
+        class="w-[35%] px-2 py-2 border-2 border-teal-700 capitalize rounded-lg"
+      />
+      <button
+        class="px-4 py-2 uppercase text-blue-700 border-2 border-blue-700 rounded-md hover:text-white hover:border-transparent hover:bg-blue-500 duration-150 ease-in-out"
+        onclick="Add()"
+      >
+        add
+      </button>
+    </section>
+    <article class="capitalize text-white font-bold text-[35px] text-center">
+      todo
+    </article>
+    <main id="output-append" class=""></main>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="todos.js"></script>
+</html>
