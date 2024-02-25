@@ -1,8 +1,18 @@
 import React from "react";
 import "./App.css";
 
+const getLocalStorageItems = () => {
+  let data = localStorage.getItem("react-todo");
+
+  if (data) {
+    return JSON.parse(localStorage.getItem("react-todo"));
+  } else {
+    return [];
+  }
+};
+
 function App() {
-  const [task, setTask] = React.useState([]);
+  const [task, setTask] = React.useState(getLocalStorageItems());
   const [query, setQuery] = React.useState("");
 
   // here we have EDIT state's
@@ -47,6 +57,10 @@ function App() {
     });
     setTask(updatedTasks);
   };
+
+  React.useEffect(() => {
+    localStorage.setItem("react-todo", JSON.stringify(task));
+  }, [task]);
   return (
     <>
       <main
