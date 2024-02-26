@@ -5,8 +5,6 @@ function Add() {
   let Values = inputValue.value.toUpperCase();
 
   if (Values == "") return;
-  console.warn(Values);
-
   const task = { text: Values };
 
   storage.push(task);
